@@ -4,7 +4,7 @@ terraform {
 
 module "tenminutevpn" {
   source  = "tenminutevpn/tenminutevpn/digitalocean"
-  version = "0.1.6"
+  version = "0.1.7"
 
   tenminutevpn_region  = "fra1"
   tenminutevpn_version = "v0.1.6"
