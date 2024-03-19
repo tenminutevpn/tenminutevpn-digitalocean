@@ -5,7 +5,7 @@ terraform {
 
     endpoint = "https://s3.us-east-005.backblazeb2.com"
     region   = "us-east-005"
-    encrypt  = true
+    encrypt  = false
 
     skip_requesting_account_id  = true
     skip_credentials_validation = true
