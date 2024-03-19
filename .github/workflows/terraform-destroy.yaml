@@ -11,6 +11,7 @@ permissions:
 jobs:
   terraform:
     runs-on: ubuntu-22.04
+    environment: digitalocean
 
     steps:
       - name: Checkout
