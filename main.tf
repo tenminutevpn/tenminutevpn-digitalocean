@@ -4,10 +4,10 @@ terraform {
 
 module "tenminutevpn" {
   source  = "tenminutevpn/tenminutevpn/digitalocean"
-  version = "0.1.9"
+  version = "0.1.10"
 
   tenminutevpn_region  = "fra1"
-  tenminutevpn_version = "v0.1.9"
+  tenminutevpn_version = "v0.1.10"
 
   wireguard_port = 51820
 }
